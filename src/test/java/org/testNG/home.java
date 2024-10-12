@@ -19,7 +19,7 @@ public class home {
     private WebDriver driver;
     private homePage homepage;
     private loginPage login;
-    public WebDriverWait wait;
+    WebDriverWait wait;
 
     @Parameters({"br"})
     @BeforeMethod

@@ -1,10 +1,16 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 
-    <suite name="login"  >
+    <suite name="login" parallel="methods" thread-count="2"  >
         <parameter name="br" value="edge"> </parameter>
         <test name="SuccessfullyLogin"  >
              <classes>
-                 <class name="org.testNG.login"></class>
+                 <class name="org.testNG.login">
+                    <methods>
+                        <include name="UI"></include>
+                        <include name="successfullyLogin"></include>
+                        <include name="unsuccessfullyLogin"></include>
+                    </methods>
+                 </class>
 
              </classes>
          </test>
