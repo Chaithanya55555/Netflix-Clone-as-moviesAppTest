@@ -1,8 +1,7 @@
 package org.testNG;
 
-
-import com.beust.jcommander.Parameter;
 import io.github.bonigarcia.wdm.WebDriverManager;
+import org.excelUtility;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -11,18 +10,15 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.pages.loginPage;
 import org.testng.Assert;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Parameters;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
 
+import java.io.IOException;
 import java.time.Duration;
 
 public class login {
     public WebDriver driver;
     public loginPage login;
     public WebDriverWait wait;
-
     @Parameters({"br"})
     @BeforeMethod
     public void setup(String br ){
@@ -31,12 +27,19 @@ public class login {
             case "edge":WebDriverManager.edgedriver().setup();driver = new EdgeDriver();break;
             default: System.out.println("Invalid browser");return;
         }
-        driver = new ChromeDriver();
         login = new loginPage(driver);
         wait = new WebDriverWait(driver,Duration.ofSeconds(10));
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
     }
+
+    public String dataProvider(int row , int col ) throws IOException {
+        String path = "src/TestData/Mini Project.xlsx";
+        excelUtility xl = new excelUtility(path);
+        String loginData = xl.getCellData("Sheet1",row,col);
+        return loginData;
+    }
+
 
     @Test(priority = 1)
     public  void UI() {
@@ -52,9 +55,12 @@ public class login {
     }
 
     @Test(priority = 2)
-    public void  successfullLogin(){
+    public void  successfullyLogin() throws IOException {
         driver.get("https://qamoviesapp.ccbp.tech");
         Assert.assertTrue(login.areInputEmpty());
+//        String loginData = dataProvider(2,4 );
+//        String[] data = loginData.split(",");
+//        System.out.println(loginData);
         login.login("rahul","rahul@2021");
         login.clickOnLogButton();
         wait.until(ExpectedConditions.urlToBe("https://qamoviesapp.ccbp.tech/"));
@@ -62,7 +68,7 @@ public class login {
     }
     
     @Test(priority = 3)
-    public void  unsuccessfullLogin(){
+    public void  unsuccessfullyLogin(){
         driver.get("https://qamoviesapp.ccbp.tech");
         Assert.assertTrue(login.areInputEmpty());
         login.login("rahul","rahul");
