@@ -1,43 +1,18 @@
 package org.testNG;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
-import org.excelUtility;
+import org.baseClass.baseClassForTestNG;
+import org.baseUtilities.excelUtility;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
-import org.pages.homePage;
-import org.pages.loginPage;
 import org.testng.Assert;
 import org.testng.annotations.*;
 
 import java.io.IOException;
-import java.time.Duration;
 
-public class login {
-    WebDriver driver;
-    loginPage login;
-    WebDriverWait wait;
+public class login extends baseClassForTestNG {
     excelUtility xl;
     String sheetName;
-    homePage home;
     String path;
-    @Parameters({"br"})
-    @BeforeMethod
-    public void setup(String br){
-        switch (br.toLowerCase()){
-            case "chrome":WebDriverManager.chromedriver().setup();driver = new ChromeDriver();break;
-            case "edge":WebDriverManager.edgedriver().setup();driver = new EdgeDriver();break;
-            default: System.out.println("Invalid browser");return;
-        }
-        login = new loginPage(driver);
-        home = new homePage(driver);
-        wait = new WebDriverWait(driver,Duration.ofSeconds(10));
-        driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-    }
 
     public String dataProvider(int row , int col ) throws IOException {
          path = "C:\\Users\\HP\\IdeaProjects\\movieTest\\src\\test\\TestData\\Mini Project.xlsx";
@@ -120,10 +95,5 @@ public class login {
 
     }
 
-    @AfterMethod
-    public void tearDown(){
-       if (driver != null) {
-           driver.quit();
-       }
-    }
+
 }

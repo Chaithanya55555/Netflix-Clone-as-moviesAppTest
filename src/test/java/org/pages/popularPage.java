@@ -1,18 +1,15 @@
 package org.pages;
 
-import org.openqa.selenium.By;
+import org.baseClass.basePage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
 
 
 import java.util.ArrayList;
 import java.util.List;
-public class popularPage {
+public class popularPage extends basePage {
 
-
-    private WebDriver driver;
 
     @FindBy(xpath = "//li[@class = 'movie-icon-item']") private List<WebElement> movieItems;
 
@@ -23,8 +20,7 @@ public class popularPage {
     @FindBy(className = "category-paragraph") public List<WebElement >NnumberOfGenres;
 
     public popularPage(WebDriver driver) {
-        this.driver = driver;
-        PageFactory.initElements(driver, this);
+        super(driver);
     }
 
     public void clickOnHomePage(){

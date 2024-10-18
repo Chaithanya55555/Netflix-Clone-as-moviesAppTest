@@ -1,13 +1,13 @@
 package org.pages;
 
+import org.baseClass.basePage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
+
 import java.util.List;
 
-public class searchPage {
-    public WebDriver driver;
+public class searchPage extends basePage {
 
     @FindBy(id = "search") private WebElement searchInput;
 
@@ -22,8 +22,7 @@ public class searchPage {
     @FindBy(className = "not-found-search-image") private WebElement errorImage;
 
     public searchPage(WebDriver driver) {
-        this.driver = driver;
-        PageFactory.initElements(driver, this);
+        super(driver);
     }
 
     public void enterSearchQuery(String query) {

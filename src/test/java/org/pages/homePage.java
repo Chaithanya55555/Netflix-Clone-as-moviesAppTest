@@ -1,20 +1,19 @@
 package org.pages;
 
+import org.baseClass.basePage;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
 import java.util.ArrayList;
 import java.util.List;
-public class homePage {
+public class homePage extends basePage {
     // src/test/java/pageobjects/Homepage.java
     public Boolean isDisplay;
-    public WebDriver driver;
 
     @FindBy(xpath = "//div[@class = 'home-bottom-container']//div[1]//h1")
     public WebElement mainHeading;
@@ -88,8 +87,7 @@ public class homePage {
     private By releaseDateParagraph = By.xpath("//div[contains(@class, 'budget-category')]/p[2]");
 
     public homePage(WebDriver driver) {
-        this.driver = driver;
-        PageFactory.initElements(driver, this);
+        super(driver);
     }
 
 

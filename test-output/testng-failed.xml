@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="methods" name="Failed suite [login]" guice-stage="DEVELOPMENT">
+  <parameter name="br" value="edge"/>
+  <test thread-count="2" parallel="methods" name="SuccessfullyLogin(failed)">
+    <classes>
+      <class name="org.testNG.login">
+        <methods>
+          <include name="unsuccessfullyLogin"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- org.testNG.login -->
+    </classes>
+  </test> <!-- SuccessfullyLogin(failed) -->
+</suite> <!-- Failed suite [login] -->

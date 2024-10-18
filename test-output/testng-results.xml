@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="17" passed="17" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-18T11:25:56 IST" name="Account" finished-at="2024-10-18T11:26:10 IST" duration-ms="14146">
+    <groups>
+    </groups>
+    <test started-at="2024-10-18T11:25:56 IST" name="UI and logout functionality" finished-at="2024-10-18T11:26:10 IST" duration-ms="14146">
+      <class name="org.testNG.account">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:org.testNG.account@16d04d3d]" started-at="2024-10-18T11:25:56 IST" name="setup" finished-at="2024-10-18T11:25:59 IST" duration-ms="2863" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="UIOfAccountPage()[pri:1, instance:org.testNG.account@16d04d3d]" started-at="2024-10-18T11:25:59 IST" name="UIOfAccountPage" finished-at="2024-10-18T11:26:02 IST" duration-ms="2702" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UIOfAccountPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.testNG.account@16d04d3d]" started-at="2024-10-18T11:26:02 IST" name="tearDown" finished-at="2024-10-18T11:26:03 IST" duration-ms="1374" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:org.testNG.account@16d04d3d]" started-at="2024-10-18T11:26:03 IST" name="setup" finished-at="2024-10-18T11:26:06 IST" duration-ms="2898" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="logout()[pri:2, instance:org.testNG.account@16d04d3d]" started-at="2024-10-18T11:26:06 IST" name="logout" finished-at="2024-10-18T11:26:09 IST" duration-ms="2967" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.testNG.account@16d04d3d]" started-at="2024-10-18T11:26:09 IST" name="tearDown" finished-at="2024-10-18T11:26:10 IST" duration-ms="1341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.testNG.account -->
+    </test> <!-- UI and logout functionality -->
+  </suite> <!-- Account -->
+  <suite started-at="2024-10-18T11:24:54 IST" name="Movie details" finished-at="2024-10-18T11:25:11 IST" duration-ms="16774">
+    <groups>
+    </groups>
+    <test started-at="2024-10-18T11:24:54 IST" name="UI" finished-at="2024-10-18T11:25:11 IST" duration-ms="16774">
+      <class name="org.testNG.moviesDetails">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:org.testNG.moviesDetails@9f116cc]" started-at="2024-10-18T11:24:54 IST" name="setup" finished-at="2024-10-18T11:24:57 IST" duration-ms="2848" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="UIOnMoviesDetailsOnHomePage()[pri:1, instance:org.testNG.moviesDetails@9f116cc]" started-at="2024-10-18T11:24:57 IST" name="UIOnMoviesDetailsOnHomePage" finished-at="2024-10-18T11:25:01 IST" duration-ms="3573" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UIOnMoviesDetailsOnHomePage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.testNG.moviesDetails@9f116cc]" started-at="2024-10-18T11:25:01 IST" name="tearDown" finished-at="2024-10-18T11:25:02 IST" duration-ms="1583" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:org.testNG.moviesDetails@9f116cc]" started-at="2024-10-18T11:25:02 IST" name="setup" finished-at="2024-10-18T11:25:06 IST" duration-ms="3028" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="UIOnMoviesDetailsOnPopularPage()[pri:2, instance:org.testNG.moviesDetails@9f116cc]" started-at="2024-10-18T11:25:06 IST" name="UIOnMoviesDetailsOnPopularPage" finished-at="2024-10-18T11:25:10 IST" duration-ms="4217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UIOnMoviesDetailsOnPopularPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.testNG.moviesDetails@9f116cc]" started-at="2024-10-18T11:25:10 IST" name="tearDown" finished-at="2024-10-18T11:25:11 IST" duration-ms="1518" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.testNG.moviesDetails -->
+    </test> <!-- UI -->
+  </suite> <!-- Movie details -->
+  <suite started-at="2024-10-18T11:25:11 IST" name="Search" finished-at="2024-10-18T11:25:56 IST" duration-ms="44789">
+    <groups>
+    </groups>
+    <test started-at="2024-10-18T11:25:11 IST" name="Search functionality" finished-at="2024-10-18T11:25:56 IST" duration-ms="44789">
+      <class name="org.testNG.search">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:org.testNG.search@3a93b025]" started-at="2024-10-18T11:25:11 IST" name="setup" finished-at="2024-10-18T11:25:14 IST" duration-ms="2909" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="searchMovies(java.lang.String)[pri:1, instance:org.testNG.search@3a93b025]" started-at="2024-10-18T11:25:14 IST" name="searchMovies" data-provider="moviesNames" finished-at="2024-10-18T11:25:17 IST" duration-ms="2571" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Titanic]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchMovies -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.testNG.search@3a93b025]" started-at="2024-10-18T11:25:17 IST" name="tearDown" finished-at="2024-10-18T11:25:18 IST" duration-ms="1493" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:org.testNG.search@3a93b025]" started-at="2024-10-18T11:25:18 IST" name="setup" finished-at="2024-10-18T11:25:21 IST" duration-ms="2858" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="searchMovies(java.lang.String)[pri:1, instance:org.testNG.search@3a93b025]" started-at="2024-10-18T11:25:21 IST" name="searchMovies" data-provider="moviesNames" finished-at="2024-10-18T11:25:24 IST" duration-ms="2573" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Red notice]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchMovies -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.testNG.search@3a93b025]" started-at="2024-10-18T11:25:24 IST" name="tearDown" finished-at="2024-10-18T11:25:25 IST" duration-ms="1450" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:org.testNG.search@3a93b025]" started-at="2024-10-18T11:25:25 IST" name="setup" finished-at="2024-10-18T11:25:28 IST" duration-ms="2993" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="searchMovies(java.lang.String)[pri:1, instance:org.testNG.search@3a93b025]" started-at="2024-10-18T11:25:28 IST" name="searchMovies" data-provider="moviesNames" finished-at="2024-10-18T11:25:31 IST" duration-ms="2656" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Luca]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchMovies -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.testNG.search@3a93b025]" started-at="2024-10-18T11:25:31 IST" name="tearDown" finished-at="2024-10-18T11:25:32 IST" duration-ms="1391" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:org.testNG.search@3a93b025]" started-at="2024-10-18T11:25:32 IST" name="setup" finished-at="2024-10-18T11:25:35 IST" duration-ms="2797" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="searchMovies(java.lang.String)[pri:1, instance:org.testNG.search@3a93b025]" started-at="2024-10-18T11:25:35 IST" name="searchMovies" data-provider="moviesNames" finished-at="2024-10-18T11:25:43 IST" duration-ms="7681" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[xyzabcnonexistentmovie123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchMovies -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.testNG.search@3a93b025]" started-at="2024-10-18T11:25:43 IST" name="tearDown" finished-at="2024-10-18T11:25:44 IST" duration-ms="1399" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:org.testNG.search@3a93b025]" started-at="2024-10-18T11:25:44 IST" name="setup" finished-at="2024-10-18T11:25:47 IST" duration-ms="2930" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="searchMovies(java.lang.String)[pri:1, instance:org.testNG.search@3a93b025]" started-at="2024-10-18T11:25:47 IST" name="searchMovies" data-provider="moviesNames" finished-at="2024-10-18T11:25:55 IST" duration-ms="7676" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[!@#$%^&*()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchMovies -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.testNG.search@3a93b025]" started-at="2024-10-18T11:25:55 IST" name="tearDown" finished-at="2024-10-18T11:25:56 IST" duration-ms="1403" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.testNG.search -->
+    </test> <!-- Search functionality -->
+  </suite> <!-- Search -->
+  <suite started-at="2024-10-18T11:23:56 IST" name="login" finished-at="2024-10-18T11:24:19 IST" duration-ms="22818">
+    <groups>
+    </groups>
+    <test started-at="2024-10-18T11:23:56 IST" name="SuccessfullyLogin" finished-at="2024-10-18T11:24:19 IST" duration-ms="22818">
+      <class name="org.testNG.login">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:org.testNG.login@e056f20]" started-at="2024-10-18T11:23:56 IST" name="setup" finished-at="2024-10-18T11:24:01 IST" duration-ms="5189" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="UI()[pri:1, instance:org.testNG.login@e056f20]" started-at="2024-10-18T11:24:01 IST" name="UI" finished-at="2024-10-18T11:24:03 IST" duration-ms="1662" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UI -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.testNG.login@e056f20]" started-at="2024-10-18T11:24:03 IST" name="tearDown" finished-at="2024-10-18T11:24:04 IST" duration-ms="1321" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:org.testNG.login@e056f20]" started-at="2024-10-18T11:24:04 IST" name="setup" finished-at="2024-10-18T11:24:07 IST" duration-ms="3092" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="successfullyLogin()[pri:2, instance:org.testNG.login@e056f20]" started-at="2024-10-18T11:24:07 IST" name="successfullyLogin" finished-at="2024-10-18T11:24:11 IST" duration-ms="4094" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- successfullyLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.testNG.login@e056f20]" started-at="2024-10-18T11:24:11 IST" name="tearDown" finished-at="2024-10-18T11:24:13 IST" duration-ms="1459" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:org.testNG.login@e056f20]" started-at="2024-10-18T11:24:13 IST" name="setup" finished-at="2024-10-18T11:24:16 IST" duration-ms="3002" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="unsuccessfullyLogin()[pri:3, instance:org.testNG.login@e056f20]" started-at="2024-10-18T11:24:16 IST" name="unsuccessfullyLogin" finished-at="2024-10-18T11:24:17 IST" duration-ms="1552" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unsuccessfullyLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.testNG.login@e056f20]" started-at="2024-10-18T11:24:17 IST" name="tearDown" finished-at="2024-10-18T11:24:19 IST" duration-ms="1333" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.testNG.login -->
+    </test> <!-- SuccessfullyLogin -->
+  </suite> <!-- login -->
+  <suite started-at="2024-10-18T11:24:39 IST" name="popular" finished-at="2024-10-18T11:24:54 IST" duration-ms="15763">
+    <groups>
+    </groups>
+    <test started-at="2024-10-18T11:24:39 IST" name="Movie Display Functionality" finished-at="2024-10-18T11:24:54 IST" duration-ms="15763">
+      <class name="org.testNG.popular">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:org.testNG.popular@7b9a4292]" started-at="2024-10-18T11:24:39 IST" name="setup" finished-at="2024-10-18T11:24:42 IST" duration-ms="2949" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyMoviesAreDisplayedOnThePopularPage()[pri:1, instance:org.testNG.popular@7b9a4292]" started-at="2024-10-18T11:24:42 IST" name="verifyMoviesAreDisplayedOnThePopularPage" finished-at="2024-10-18T11:24:45 IST" duration-ms="3259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMoviesAreDisplayedOnThePopularPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.testNG.popular@7b9a4292]" started-at="2024-10-18T11:24:45 IST" name="tearDown" finished-at="2024-10-18T11:24:47 IST" duration-ms="1631" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:org.testNG.popular@7b9a4292]" started-at="2024-10-18T11:24:47 IST" name="setup" finished-at="2024-10-18T11:24:49 IST" duration-ms="2862" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyUIElementsOnThePopularPage()[pri:2, instance:org.testNG.popular@7b9a4292]" started-at="2024-10-18T11:24:49 IST" name="VerifyUIElementsOnThePopularPage" finished-at="2024-10-18T11:24:53 IST" duration-ms="3485" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyUIElementsOnThePopularPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.testNG.popular@7b9a4292]" started-at="2024-10-18T11:24:53 IST" name="tearDown" finished-at="2024-10-18T11:24:54 IST" duration-ms="1550" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.testNG.popular -->
+    </test> <!-- Movie Display Functionality -->
+  </suite> <!-- popular -->
+  <suite started-at="2024-10-18T11:26:10 IST" name="Suites" finished-at="2024-10-18T11:26:10 IST" duration-ms="0">
+    <groups>
+    </groups>
+  </suite> <!-- Suites -->
+  <suite started-at="2024-10-18T11:24:19 IST" name="home" finished-at="2024-10-18T11:24:39 IST" duration-ms="19876">
+    <groups>
+    </groups>
+    <test started-at="2024-10-18T11:24:19 IST" name="Verify homepage" finished-at="2024-10-18T11:24:39 IST" duration-ms="19876">
+      <class name="org.testNG.home">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:org.testNG.home@6b927fb]" started-at="2024-10-18T11:24:19 IST" name="setup" finished-at="2024-10-18T11:24:22 IST" duration-ms="2954" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyHomepageElements()[pri:1, instance:org.testNG.home@6b927fb]" started-at="2024-10-18T11:24:22 IST" name="verifyHomepageElements" finished-at="2024-10-18T11:24:25 IST" duration-ms="2861" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomepageElements -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.testNG.home@6b927fb]" started-at="2024-10-18T11:24:25 IST" name="tearDown" finished-at="2024-10-18T11:24:26 IST" duration-ms="1471" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:org.testNG.home@6b927fb]" started-at="2024-10-18T11:24:26 IST" name="setup" finished-at="2024-10-18T11:24:29 IST" duration-ms="2957" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testHeaderSectionUI()[pri:2, instance:org.testNG.home@6b927fb]" started-at="2024-10-18T11:24:29 IST" name="testHeaderSectionUI" finished-at="2024-10-18T11:24:31 IST" duration-ms="1775" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHeaderSectionUI -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.testNG.home@6b927fb]" started-at="2024-10-18T11:24:31 IST" name="tearDown" finished-at="2024-10-18T11:24:32 IST" duration-ms="1389" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:org.testNG.home@6b927fb]" started-at="2024-10-18T11:24:32 IST" name="setup" finished-at="2024-10-18T11:24:35 IST" duration-ms="2827" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testHeaderSectionFunctionalities()[pri:3, instance:org.testNG.home@6b927fb]" started-at="2024-10-18T11:24:35 IST" name="testHeaderSectionFunctionalities" finished-at="2024-10-18T11:24:37 IST" duration-ms="2121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHeaderSectionFunctionalities -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.testNG.home@6b927fb]" started-at="2024-10-18T11:24:37 IST" name="tearDown" finished-at="2024-10-18T11:24:39 IST" duration-ms="1511" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.testNG.home -->
+    </test> <!-- Verify homepage -->
+  </suite> <!-- home -->
+</testng-results>

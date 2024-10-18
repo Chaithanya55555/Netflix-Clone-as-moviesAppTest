@@ -1,22 +1,28 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Suites" parallel="classes" thread-count="2">
-   <!--
+<suite name="Suites">
+
    <suite-files>
         <suite-file path="login.xml"></suite-file>
         <suite-file path="home.xml"></suite-file>
         <suite-file path="popular.xml"></suite-file>
+       <suite-file path="movieDetails.xml"></suite-file>
+       <suite-file path="search.xml"></suite-file>
+       <suite-file path="account.xml"></suite-file>
     </suite-files>
-    -->
 
+<!--
         <parameter name="br" value="edge"> </parameter>
-        <test name="ThreePages"  >
+        <test name="All pages" parallel="classes" thread-count="2" >
             <classes>
                 <class name="org.testNG.login"></class>
                 <class name="org.testNG.home"></class>
                 <class name="org.testNG.popular"></class>
+                <class name="org.testNG.moviesDetails"></class>
+                <class name="org.testNG.search"></class>
+                <class name="org.testNG.account"></class>
             </classes>
         </test>
-
+-->
 
 
 </suite>

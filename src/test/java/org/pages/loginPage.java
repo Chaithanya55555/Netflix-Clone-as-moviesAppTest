@@ -1,13 +1,13 @@
 package org.pages;
 
+import org.baseClass.basePage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
-import org.openqa.selenium.support.PageFactory;
 
-public class loginPage {
-    public WebDriver driver;
+public class loginPage extends basePage {
+
 
     @FindBy (className = "login-website-logo") WebElement logo;
 
@@ -26,8 +26,7 @@ public class loginPage {
     @FindBy(className = "error-message") WebElement errorMessage;
 
     public loginPage(WebDriver driver){
-        this.driver = driver;
-        PageFactory.initElements(driver , this);
+        super(driver);
     }
 
     public Boolean isLogoDisplayed(){

@@ -1,12 +1,12 @@
 package org.pages;
+import org.baseClass.basePage;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-public class accountsPage {
+public class accountsPage extends basePage {
     // AccountPage.
 
 
-    private WebDriver driver;
     // Selectors
     private By accountHeading = By.className("account-heading");
     private By membershipHeading = By.className("membership-heading");
@@ -18,7 +18,7 @@ public class accountsPage {
     private By logoutButton = By.className("logout-button");
 
     public accountsPage(WebDriver driver) {
-        this.driver = driver;
+        super(driver);
     }
 
     // Actions
