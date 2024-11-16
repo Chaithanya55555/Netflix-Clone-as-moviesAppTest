@@ -8,7 +8,6 @@ public class moviesDetails extends baseClassForTestNG {
 
     @Test(priority = 1)
     public void UIOnMoviesDetailsOnHomePage(){
-        driver.get("https://qamoviesapp.ccbp.tech/login");
         homepage.waits(5,"https://qamoviesapp.ccbp.tech/login");
         login.login("rahul" , "rahul@2021");
         login.clickOnLogButton();
@@ -39,7 +38,6 @@ public class moviesDetails extends baseClassForTestNG {
 
     @Test(priority = 2)
     public void UIOnMoviesDetailsOnPopularPage(){
-        driver.get("https://qamoviesapp.ccbp.tech/login");
         homepage.waits(10,"https://qamoviesapp.ccbp.tech/login");
         login.login("rahul" , "rahul@2021");
         login.clickOnLogButton();

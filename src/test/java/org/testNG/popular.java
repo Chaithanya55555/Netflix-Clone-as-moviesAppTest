@@ -11,12 +11,11 @@ public class popular  extends baseClassForTestNG {
 
     @Test(priority = 1)
     public void verifyMoviesAreDisplayedOnThePopularPage(){
-        driver.get("https://qamoviesapp.ccbp.tech");
         Assert.assertTrue(login.areInputEmpty());
         login.login("rahul" , "rahul@2021");
         login.clickOnLogButton();
         popularPage.clickOnHomePage();
-        wait.until(ExpectedConditions.urlToBe("https://qamoviesapp.ccbp.tech/popular"));
+        homepage.waits(5,"https://qamoviesapp.ccbp.tech/popular");
         Assert.assertEquals(driver.getCurrentUrl(), "https://qamoviesapp.ccbp.tech/popular");
         Assert.assertTrue(popularPage.areMoviesDisplayed());
 
@@ -24,7 +23,6 @@ public class popular  extends baseClassForTestNG {
 
     @Test(priority = 2)
     public void VerifyUIElementsOnThePopularPage(){
-        driver.get("https://qamoviesapp.ccbp.tech/login");
         homepage.waits(5,"https://qamoviesapp.ccbp.tech/login");
         login.login("rahul" , "rahul@2021");
         login.clickOnLogButton();

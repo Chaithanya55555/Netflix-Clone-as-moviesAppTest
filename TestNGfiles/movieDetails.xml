@@ -1,5 +1,8 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Movie details">
+    <listeners>
+        <listener class-name="org.baseUtilities.extentReport"></listener>
+    </listeners>
     <parameter name="br" value="edge"></parameter>
     <test name="UI">
         <classes>

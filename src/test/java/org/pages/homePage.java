@@ -85,7 +85,7 @@ public class homePage extends basePage {
     private By budgetParagraph = By.xpath("//div[contains(@class, 'budget-category')]/p[1]");
     private By releaseDateHeading = By.className("release-date-heading");
     private By releaseDateParagraph = By.xpath("//div[contains(@class, 'budget-category')]/p[2]");
-
+    private By errorMsg = By.className("error-message");
     public homePage(WebDriver driver) {
         super(driver);
     }
@@ -164,8 +164,7 @@ public class homePage extends basePage {
     }
 
     public void clickOnMovie() {
-        WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(5));
-        wait.until(ExpectedConditions.visibilityOf(Movie));
+        new WebDriverWait(driver,Duration.ofSeconds(5)).until(ExpectedConditions.visibilityOf(Movie));
         Movie.click();
     }
 
@@ -251,6 +250,11 @@ public class homePage extends basePage {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(secs));
         wait.until(ExpectedConditions.urlToBe(url));
     }
+    public void waitForElement(int secs, String url) {
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(secs));
+        wait.until(ExpectedConditions.visibilityOfElementLocated(errorMsg));
+    }
+
 
     public boolean isLogoDisplayed() {
         return websiteLogo.isDisplayed();

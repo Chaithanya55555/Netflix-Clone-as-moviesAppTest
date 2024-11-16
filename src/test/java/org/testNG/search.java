@@ -21,10 +21,8 @@ public class search extends baseClassForTestNG {
             };
     }
 
-    @Test(priority = 1,dataProvider = "moviesNames")
+    @Test(priority = 1,dataProvider = "moviesNames",groups = "sanity")
     public void searchMovies(String movie){
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
-        driver.get("https://qamoviesapp.ccbp.tech/login");
         login.login("rahul", "rahul@2021");
         login.clickOnLogButton();
         search.clickEmptySearchButton();
