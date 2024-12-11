@@ -20,11 +20,11 @@
             <parameter name="br" value="chrome"> </parameter>
             <classes>
                 <class name="org.testNG.login"></class>
-                <!--<class name="org.testNG.home"></class>
+                <class name="org.testNG.home"></class>
                 <class name="org.testNG.popular"></class>
                 <class name="org.testNG.moviesDetails"></class>
                 <class name="org.testNG.search"></class>
-                <class name="org.testNG.account"></class>-->
+                <class name="org.testNG.account"></class>
             </classes>
         </test>
 </suite>
