@@ -1,0 +1,38 @@
+2024-11-18 17:36:00 [TestNG-test-All pages-1] INFO  org.testNG.account - ***** Validate the user interface *****
+2024-11-18 17:36:07 [TestNG-test-All pages-1] INFO  org.testNG.account - ***** Navigate to login for successful login *****
+2024-11-18 17:36:07 [TestNG-test-All pages-1] INFO  org.testNG.account - ***** Checking the input boxes are empty  *****
+2024-11-18 17:36:07 [TestNG-test-All pages-1] INFO  org.testNG.account - ***** Getting input data from excel *****
+2024-11-18 17:36:09 [TestNG-test-All pages-1] INFO  org.testNG.moviesDetails - ***** Send the correct input data according to the inputs *****
+2024-11-18 17:36:09 [TestNG-test-All pages-1] INFO  org.testNG.moviesDetails - ***** Click on the login button *****
+2024-11-18 17:36:09 [TestNG-test-All pages-1] INFO  org.testNG.moviesDetails - ***** Wait for the home page *****
+2024-11-18 17:36:24 [TestNG-test-All pages-1] INFO  org.testNG.moviesDetails - ***** Navigate to login for unsuccessful login *****
+2024-11-18 17:36:24 [TestNG-test-All pages-1] INFO  org.testNG.moviesDetails - ***** Send the incorrect input data according to the inputs *****
+2024-11-18 17:36:25 [TestNG-test-All pages-1] INFO  org.testNG.moviesDetails - ***** Wait for the error msg is displayed or not *****
+2024-11-18 17:36:25 [TestNG-test-All pages-1] INFO  org.testNG.moviesDetails - ***** Validate the error msg *****
+2024-11-18 17:36:37 [TestNG-test-All pages-2] INFO  org.testNG.search - ***** Verify the home page elements start *****
+2024-11-18 17:36:37 [TestNG-test-All pages-2] INFO  org.testNG.search - ***** Successfully logged for validate the UI on home page *****
+2024-11-18 17:36:38 [TestNG-test-All pages-2] INFO  org.testNG.search - ***** Validate the UI related elements *****
+2024-11-18 17:36:48 [TestNG-test-All pages-2] ERROR org.testNG.search - ***** Test Failed *****no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class = 'home-bottom-container']//div[1]//h1"}
+  (Session info: chrome=131.0.6778.69)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [17f5f5042df6d751249e58e021dd67b8, findElement {value=//div[@class = 'home-bottom-container']//div[1]//h1, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.69, chrome: {chromedriverVersion: 131.0.6778.69 (77e2244bbcda..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:10739}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:10739/devtoo..., se:cdpVersion: 131.0.6778.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 17f5f5042df6d751249e58e021dd67b8
+2024-11-18 17:37:08 [TestNG-test-All pages-2] INFO  org.testNG.popular - ***** Test header UI is started *****
+2024-11-18 17:37:17 [TestNG-test-All pages-2] INFO  org.testNG.home - ***** Validate the functionality of header section is start *****
+2024-11-18 17:37:17 [TestNG-test-All pages-2] INFO  org.testNG.home - ***** Successfully login *****
+2024-11-18 17:37:17 [TestNG-test-All pages-2] INFO  org.testNG.home - ***** Click on home element *****
+2024-11-18 17:37:19 [TestNG-test-All pages-2] INFO  org.testNG.home - ***** Validate URL of home page *****
+2024-11-18 17:37:19 [TestNG-test-All pages-2] INFO  org.testNG.home - ***** Click on popular element *****
+2024-11-18 17:37:20 [TestNG-test-All pages-2] INFO  org.testNG.home - ***** Validate URL of popular page *****
+2024-11-18 17:37:20 [TestNG-test-All pages-2] INFO  org.testNG.home - ***** Click on account element *****
+2024-11-18 17:37:20 [TestNG-test-All pages-2] INFO  org.testNG.home - ***** Validate URL of account page  *****
+2024-11-18 17:37:20 [TestNG-test-All pages-2] INFO  org.testNG.home - ***** Validate the functionality of header section is finished *****
+2024-11-18 17:39:17 [TestNG-test-All pages-1] INFO  org.testNG.account - ***** Validate the user interface *****
+2024-11-18 17:39:20 [TestNG-test-All pages-1] INFO  org.testNG.account - ***** Navigate to login for successful login *****
+2024-11-18 17:39:20 [TestNG-test-All pages-1] INFO  org.testNG.account - ***** Checking the input boxes are empty  *****
+2024-11-18 17:39:20 [TestNG-test-All pages-1] INFO  org.testNG.account - ***** Getting input data from excel *****
+2024-11-18 17:39:22 [TestNG-test-All pages-1] INFO  org.testNG.account - ***** Send the correct input data according to the inputs *****

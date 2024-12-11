@@ -5,11 +5,16 @@ import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 
 import org.baseClass.baseClassForTestNG;
 
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebDriver;
+import org.pages.loginPage;
 import org.testng.ITestListener;
 
 
 import java.awt.*;
 import java.io.File;
+import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
@@ -55,6 +60,8 @@ public class extentReport  implements ITestListener {
     public ExtentSparkReporter sparkReporter;
     public ExtentReports extent;
     String path;
+    public WebDriver driver;
+
 
 
     @Override
@@ -71,6 +78,17 @@ public class extentReport  implements ITestListener {
         extent.setSystemInfo("Host name","localhost");
         extent.setSystemInfo("Environemnt","QA");
         extent.setSystemInfo("user","Chaithanya");
+        extent.setSystemInfo("Application", "moviesapp");
+        extent.setSystemInfo("Module", "Admin");
+        extent.setSystemInfo("User Name", System.getProperty("user.name"));
+        extent.setSystemInfo("Environemnt", "QA");
+
+        String os = testContext.getCurrentXmlTest().getParameter("os");
+        extent.setSystemInfo("Operating System", os);
+
+        String browser = testContext.getCurrentXmlTest().getParameter("br");
+        extent.setSystemInfo("Browser", browser);
+
 
         sparkReporter.config().setDocumentTitle("MoviesApp Test Project"); // Tile of report
         sparkReporter.config().setReportName("Functional Test Automation Report"); // name of the report
@@ -78,7 +96,8 @@ public class extentReport  implements ITestListener {
     }
     @Override
     public void onTestSuccess(ITestResult tr) {
-        extent.createTest(tr.getName()).log(Status.PASS, MarkupHelper.createLabel(tr.getName(), ExtentColor.GREEN)); // send the passed information to the report with GREEN color highlighted
+        extent.createTest(tr.getName()).log(Status.PASS, MarkupHelper.createLabel(tr.getName(), ExtentColor.GREEN));
+
     }
 
 
@@ -95,7 +114,7 @@ public class extentReport  implements ITestListener {
 
 
         } catch (Exception e) {
-            ex.fail(e);
+            ex.fail(e.getMessage());
         }
     }
     @Override

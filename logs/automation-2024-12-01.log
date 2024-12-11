@@ -1,0 +1,51 @@
+2024-12-01 10:47:29 [main] INFO  org.testNG.home - ***** Test header UI is finished *****
+2024-12-01 10:47:31 [main] INFO  org.testNG.home - ***** Validate the functionality of header section is start *****
+2024-12-01 10:47:31 [main] INFO  org.testNG.home - ***** Successfully login *****
+2024-12-01 10:47:32 [main] INFO  org.testNG.home - ***** Click on home element *****
+2024-12-01 10:47:32 [main] INFO  org.testNG.home - ***** Validate URL of home page *****
+2024-12-01 10:47:32 [main] INFO  org.testNG.home - ***** Click on popular element *****
+2024-12-01 10:47:33 [main] INFO  org.testNG.home - ***** Validate URL of popular page *****
+2024-12-01 10:47:33 [main] INFO  org.testNG.home - ***** Click on account element *****
+2024-12-01 10:47:33 [main] INFO  org.testNG.home - ***** Validate URL of account page  *****
+2024-12-01 10:47:33 [main] INFO  org.testNG.home - ***** Validate the functionality of header section is finished *****
+2024-12-01 10:49:52 [main] INFO  org.testNG.login - ***** Validate the user interface *****
+2024-12-01 10:49:56 [main] INFO  org.testNG.login - ***** Navigate to login for successful login *****
+2024-12-01 10:49:56 [main] INFO  org.testNG.login - ***** Checking the input boxes are empty  *****
+2024-12-01 10:49:56 [main] INFO  org.testNG.login - ***** Getting input data from excel *****
+2024-12-01 10:49:58 [main] INFO  org.testNG.login - ***** Send the correct input data according to the inputs *****
+2024-12-01 10:49:58 [main] INFO  org.testNG.login - ***** Click on the login button *****
+2024-12-01 10:49:58 [main] INFO  org.testNG.login - ***** Wait for the home page *****
+2024-12-01 10:49:59 [main] INFO  org.testNG.login - ***** Validate the URL at home page *****
+2024-12-01 10:50:01 [main] INFO  org.testNG.login - ***** Navigate to login for unsuccessful login *****
+2024-12-01 10:50:02 [main] INFO  org.testNG.login - ***** Send the incorrect input data according to the inputs *****
+2024-12-01 10:50:02 [main] INFO  org.testNG.login - ***** Wait for the error msg is displayed or not *****
+2024-12-01 10:50:02 [main] INFO  org.testNG.login - ***** Validate the error msg *****
+2024-12-01 10:50:05 [main] INFO  org.testNG.home - ***** Verify the home page elements start *****
+2024-12-01 10:50:05 [main] INFO  org.testNG.home - ***** Successfully logged for validate the UI on home page *****
+2024-12-01 10:50:06 [main] INFO  org.testNG.home - ***** Validate the UI related elements *****
+2024-12-01 10:50:08 [main] INFO  org.testNG.home - ***** Finished the verification *****
+2024-12-01 10:50:10 [main] INFO  org.testNG.home - ***** Test header UI is started *****
+2024-12-01 10:50:11 [main] INFO  org.testNG.home - ***** Validate logo is displayed or not and header elements are empty or not
+2024-12-01 10:50:12 [main] INFO  org.testNG.home - ***** Test header UI is finished *****
+2024-12-01 10:50:14 [main] INFO  org.testNG.home - ***** Validate the functionality of header section is start *****
+2024-12-01 10:50:14 [main] INFO  org.testNG.home - ***** Successfully login *****
+2024-12-01 10:50:15 [main] INFO  org.testNG.home - ***** Click on home element *****
+2024-12-01 10:50:16 [main] INFO  org.testNG.home - ***** Validate URL of home page *****
+2024-12-01 10:50:16 [main] INFO  org.testNG.home - ***** Click on popular element *****
+2024-12-01 10:50:16 [main] INFO  org.testNG.home - ***** Validate URL of popular page *****
+2024-12-01 10:50:16 [main] INFO  org.testNG.home - ***** Click on account element *****
+2024-12-01 10:50:16 [main] INFO  org.testNG.home - ***** Validate URL of account page  *****
+2024-12-01 10:50:16 [main] INFO  org.testNG.home - ***** Validate the functionality of header section is finished *****
+2024-12-01 16:48:16 [main] INFO  org.testNG.login - ***** Validate the user interface *****
+2024-12-01 16:48:21 [main] INFO  org.testNG.login - ***** Navigate to login for successful login *****
+2024-12-01 16:48:21 [main] INFO  org.testNG.login - ***** Checking the input boxes are empty  *****
+2024-12-01 16:48:21 [main] INFO  org.testNG.login - ***** Getting input data from excel *****
+2024-12-01 16:48:22 [main] INFO  org.testNG.login - ***** Send the correct input data according to the inputs *****
+2024-12-01 16:48:22 [main] INFO  org.testNG.login - ***** Click on the login button *****
+2024-12-01 16:48:23 [main] INFO  org.testNG.login - ***** Wait for the home page *****
+2024-12-01 16:48:23 [main] INFO  org.testNG.login - ***** Validate the URL at home page *****
+2024-12-01 16:48:27 [main] INFO  org.testNG.login - ***** Navigate to login for unsuccessful login *****
+2024-12-01 16:48:27 [main] INFO  org.testNG.login - ***** Send the incorrect input data according to the inputs *****
+2024-12-01 16:48:27 [main] INFO  org.testNG.login - ***** Wait for the error msg is displayed or not *****
+2024-12-01 16:48:27 [main] INFO  org.testNG.login - ***** Validate the error msg *****
+2024-12-01 16:48:32 [main] INFO  org.testNG.home - ***** Verify the home page elements start *****

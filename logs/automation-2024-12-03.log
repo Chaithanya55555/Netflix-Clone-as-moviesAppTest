@@ -1,0 +1,45 @@
+2024-12-03 15:22:50 [main] INFO  org.testNG.login - ***** Validate the user interface *****
+2024-12-03 15:22:54 [main] INFO  org.testNG.login - ***** Navigate to login for successful login *****
+2024-12-03 15:22:54 [main] INFO  org.testNG.login - ***** Checking the input boxes are empty  *****
+2024-12-03 15:22:54 [main] INFO  org.testNG.login - ***** Getting input data from excel *****
+2024-12-03 15:22:55 [main] INFO  org.testNG.login - ***** Send the correct input data according to the inputs *****
+2024-12-03 15:22:56 [main] INFO  org.testNG.login - ***** Click on the login button *****
+2024-12-03 15:22:56 [main] INFO  org.testNG.login - ***** Wait for the home page *****
+2024-12-03 15:22:57 [main] INFO  org.testNG.login - ***** Validate the URL at home page *****
+2024-12-03 15:23:00 [main] INFO  org.testNG.login - ***** Navigate to login for unsuccessful login *****
+2024-12-03 15:23:00 [main] INFO  org.testNG.login - ***** Send the incorrect input data according to the inputs *****
+2024-12-03 15:23:01 [main] INFO  org.testNG.login - ***** Wait for the error msg is displayed or not *****
+2024-12-03 15:23:01 [main] INFO  org.testNG.login - ***** Validate the error msg *****
+2024-12-03 15:23:04 [main] INFO  org.testNG.home - ***** Verify the home page elements start *****
+2024-12-03 15:23:04 [main] INFO  org.testNG.home - ***** Successfully logged for validate the UI on home page *****
+2024-12-03 15:23:04 [main] INFO  org.testNG.home - ***** Validate the UI related elements *****
+2024-12-03 15:23:08 [main] INFO  org.testNG.home - ***** Finished the verification *****
+2024-12-03 15:23:10 [main] INFO  org.testNG.home - ***** Test header UI is started *****
+2024-12-03 15:23:11 [main] INFO  org.testNG.home - ***** Validate logo is displayed or not and header elements are empty or not
+2024-12-03 15:23:11 [main] INFO  org.testNG.home - ***** Test header UI is finished *****
+2024-12-03 15:23:14 [main] INFO  org.testNG.home - ***** Validate the functionality of header section is start *****
+2024-12-03 15:23:14 [main] INFO  org.testNG.home - ***** Successfully login *****
+2024-12-03 15:23:15 [main] INFO  org.testNG.home - ***** Click on home element *****
+2024-12-03 15:23:16 [main] INFO  org.testNG.home - ***** Validate URL of home page *****
+2024-12-03 15:23:16 [main] INFO  org.testNG.home - ***** Click on popular element *****
+2024-12-03 15:23:42 [main] ERROR org.testNG.home - ***** Test is failed due tounknown error: session deleted because of page crash
+from unknown error: cannot determine loading status
+from tab crashed
+  (Session info: chrome=131.0.6778.85)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [89b971d537d896c9f06c9905234fe8eb, clickElement {id=f.D9E75C8FDB06E4CA5C254ADE0FC91152.d.11B2C3C02DF90B365CEA6BC95812AD08.e.26}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.85, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:38705}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.19.0.3:4444/sessio..., se:cdpVersion: 131.0.6778.85, se:containerName: , se:noVncPort: 7900, se:vnc: ws://172.19.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.19.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[RemoteWebDriver: chrome on linux (89b971d537d896c9f06c9905234fe8eb)] -> xpath: //ul[@class = 'nav-menu-list']//li[2]//a]
+Session ID: 89b971d537d896c9f06c9905234fe8eb*****
+2024-12-03 15:56:00 [main] INFO  org.testNG.login - ***** Validate the user interface *****
+2024-12-03 15:56:03 [main] INFO  org.testNG.login - ***** Navigate to login for successful login *****
+2024-12-03 15:56:03 [main] INFO  org.testNG.login - ***** Checking the input boxes are empty  *****
+2024-12-03 15:56:03 [main] INFO  org.testNG.login - ***** Getting input data from excel *****
+2024-12-03 15:56:04 [main] INFO  org.testNG.login - ***** Send the correct input data according to the inputs *****
+2024-12-03 15:56:04 [main] INFO  org.testNG.login - ***** Click on the login button *****
+2024-12-03 15:56:04 [main] INFO  org.testNG.login - ***** Wait for the home page *****
+2024-12-03 15:56:05 [main] INFO  org.testNG.login - ***** Validate the URL at home page *****
+2024-12-03 15:56:15 [main] INFO  org.testNG.login - ***** Navigate to login for unsuccessful login *****
+2024-12-03 15:56:15 [main] INFO  org.testNG.login - ***** Send the incorrect input data according to the inputs *****

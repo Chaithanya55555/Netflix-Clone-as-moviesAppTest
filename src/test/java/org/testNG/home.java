@@ -40,7 +40,7 @@ public class home extends baseClassForTestNG {
             logger.info("***** Test header UI is started *****");
             login.login(p.getProperty("username"),p.getProperty("password"));
             login.clickOnLogButton();
-            Assert.assertEquals(driver.getCurrentUrl(),"https://qamoviesapp.ccbp.tech/");
+            Assert.assertEquals(driver.getCurrentUrl(),"https://qamoviesapp.ccbp.tech/login");
             logger.info("***** Validate logo is displayed or not and header elements are empty or not");
             Assert.assertTrue(homepage.isLogoDisplayed(), "Website logo is not displayed");
             Assert.assertTrue(homepage.getNavbarElements().size() > 0, "Navbar elements are not present");

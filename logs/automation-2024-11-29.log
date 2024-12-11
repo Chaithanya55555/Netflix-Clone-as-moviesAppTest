@@ -1,0 +1,37 @@
+2024-11-29 14:23:23 [TestNG-test-All pages-2] INFO  org.testNG.home - ***** Validate the functionality of header section is start *****
+2024-11-29 14:23:23 [TestNG-test-All pages-2] INFO  org.testNG.home - ***** Successfully login *****
+2024-11-29 14:23:33 [TestNG-test-All pages-2] ERROR org.testNG.home - ***** Test is failed due tono such element: Unable to locate element: {"method":"css selector","selector":"#usernameInput"}
+  (Session info: chrome=131.0.6778.86)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a41732c1eadbc1efe5a31895ed4904c0, findElement {value=usernameInput, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.86, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Temp\NewUserDataDir}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:10666}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:10666/devtoo..., se:cdpVersion: 131.0.6778.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a41732c1eadbc1efe5a31895ed4904c0*****
+2024-11-29 14:25:39 [TestNG-test-All pages-1] INFO  org.testNG.home - ***** Validate the user interface *****
+2024-11-29 14:25:51 [TestNG-test-All pages-1] INFO  org.testNG.login - ***** Navigate to login for successful login *****
+2024-11-29 14:25:51 [TestNG-test-All pages-1] INFO  org.testNG.login - ***** Checking the input boxes are empty  *****
+2024-11-29 14:26:53 [TestNG-test-All pages-1] INFO  org.testNG.account - ***** Validate the user interface *****
+2024-11-29 14:26:57 [TestNG-test-All pages-1] INFO  org.testNG.moviesDetails - ***** Navigate to login for successful login *****
+2024-11-29 14:26:57 [TestNG-test-All pages-1] INFO  org.testNG.moviesDetails - ***** Checking the input boxes are empty  *****
+2024-11-29 14:26:57 [TestNG-test-All pages-1] INFO  org.testNG.moviesDetails - ***** Getting input data from excel *****
+2024-11-29 14:26:59 [TestNG-test-All pages-1] INFO  org.testNG.moviesDetails - ***** Send the correct input data according to the inputs *****
+2024-11-29 14:27:00 [TestNG-test-All pages-1] INFO  org.testNG.moviesDetails - ***** Click on the login button *****
+2024-11-29 14:27:00 [TestNG-test-All pages-1] INFO  org.testNG.moviesDetails - ***** Wait for the home page *****
+2024-11-29 14:27:10 [TestNG-test-All pages-1] INFO  org.testNG.search - ***** Navigate to login for unsuccessful login *****
+2024-11-29 14:27:10 [TestNG-test-All pages-1] INFO  org.testNG.search - ***** Send the incorrect input data according to the inputs *****
+2024-11-29 14:27:11 [TestNG-test-All pages-1] INFO  org.testNG.search - ***** Wait for the error msg is displayed or not *****
+2024-11-29 14:27:11 [TestNG-test-All pages-1] INFO  org.testNG.search - ***** Validate the error msg *****
+2024-11-29 14:27:16 [TestNG-test-All pages-1] INFO  org.testNG.popular - ***** Verify the home page elements start *****
+2024-11-29 14:27:16 [TestNG-test-All pages-1] INFO  org.testNG.popular - ***** Successfully logged for validate the UI on home page *****
+2024-11-29 14:27:17 [TestNG-test-All pages-1] INFO  org.testNG.popular - ***** Validate the UI related elements *****
+2024-11-29 14:27:17 [TestNG-test-All pages-1] ERROR org.testNG.popular - ***** Test Failed *****no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class = 'home-bottom-container']//div[1]//h1"}
+  (Session info: chrome=131.0.6778.86)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5d0419f6388009cbc1ff1776ff27e6b2, findElement {using=xpath, value=//div[@class = 'home-bottom-container']//div[1]//h1}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.86, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:11050}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:11050/devtoo..., se:cdpVersion: 131.0.6778.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5d0419f6388009cbc1ff1776ff27e6b2

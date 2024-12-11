@@ -29,6 +29,7 @@ public class login extends baseClassForTestNG {
 
 
             logger.info("***** Validate the user interface *****");
+
             Assert.assertTrue(login.isLogoDisplayed(), "Logo isn't display");
             Assert.assertEquals(login.isHeadTextDisplayed(), "Login");
             Assert.assertEquals(login.isUsernameLabelDisplayed(), "USERNAME");
@@ -65,9 +66,9 @@ public class login extends baseClassForTestNG {
             logger.info("***** Click on the login button *****");
             login.clickOnLogButton();
             logger.info("***** Wait for the home page *****");
-            homepage.waits(5,"https://qamoviesapp.ccbp.tech");
+            homepage.waits(5,"https://qamoviesapp.ccbp.tech/");
             logger.info("***** Validate the URL at home page *****");
-            Assert.assertEquals(driver.getCurrentUrl(),"https://qamoviesapp.ccbp.tech");
+            Assert.assertEquals(driver.getCurrentUrl(),"https://qamoviesapp.ccbp.tech/");
 
 //            if (home.isLogoDisplayed()){
 //                xl.setCellData(path,2,7,"Passed");

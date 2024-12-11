@@ -1,0 +1,37 @@
+2024-12-10 11:32:11 [main] INFO  org.testNG.login - ***** Validate the error msg *****
+2024-12-10 12:12:19 [main] INFO  org.testNG.login - ***** Validate the user interface *****
+2024-12-10 12:12:30 [main] INFO  org.testNG.login - ***** Navigate to login for successful login *****
+2024-12-10 12:12:30 [main] INFO  org.testNG.login - ***** Checking the input boxes are empty  *****
+2024-12-10 12:12:31 [main] INFO  org.testNG.login - ***** Getting input data from excel *****
+2024-12-10 12:12:32 [main] INFO  org.testNG.login - ***** Send the correct input data according to the inputs *****
+2024-12-10 12:12:32 [main] INFO  org.testNG.login - ***** Click on the login button *****
+2024-12-10 12:12:33 [main] INFO  org.testNG.login - ***** Wait for the home page *****
+2024-12-10 12:12:34 [main] INFO  org.testNG.login - ***** Validate the URL at home page *****
+2024-12-10 12:12:43 [main] INFO  org.testNG.login - ***** Navigate to login for unsuccessful login *****
+2024-12-10 12:12:43 [main] INFO  org.testNG.login - ***** Send the incorrect input data according to the inputs *****
+2024-12-10 12:12:43 [main] INFO  org.testNG.login - ***** Wait for the error msg is displayed or not *****
+2024-12-10 12:12:43 [main] INFO  org.testNG.login - ***** Validate the error msg *****
+2024-12-10 12:19:31 [main] INFO  org.testNG.login - ***** Validate the user interface *****
+2024-12-10 12:19:43 [main] INFO  org.testNG.login - ***** Navigate to login for successful login *****
+2024-12-10 12:19:43 [main] INFO  org.testNG.login - ***** Checking the input boxes are empty  *****
+2024-12-10 12:19:43 [main] INFO  org.testNG.login - ***** Getting input data from excel *****
+2024-12-10 12:19:44 [main] INFO  org.testNG.login - ***** Send the correct input data according to the inputs *****
+2024-12-10 12:19:45 [main] INFO  org.testNG.login - ***** Click on the login button *****
+2024-12-10 12:19:45 [main] INFO  org.testNG.login - ***** Wait for the home page *****
+2024-12-10 12:19:46 [main] INFO  org.testNG.login - ***** Validate the URL at home page *****
+2024-12-10 12:19:55 [main] INFO  org.testNG.login - ***** Navigate to login for unsuccessful login *****
+2024-12-10 12:19:55 [main] INFO  org.testNG.login - ***** Send the incorrect input data according to the inputs *****
+2024-12-10 12:19:56 [main] INFO  org.testNG.login - ***** Wait for the error msg is displayed or not *****
+2024-12-10 12:19:56 [main] INFO  org.testNG.login - ***** Validate the error msg *****
+2024-12-10 12:24:32 [main] INFO  org.testNG.login - ***** Validate the user interface *****
+2024-12-10 12:24:38 [main] INFO  org.testNG.login - ***** Navigate to login for successful login *****
+2024-12-10 12:24:38 [main] INFO  org.testNG.login - ***** Checking the input boxes are empty  *****
+2024-12-10 12:24:38 [main] INFO  org.testNG.login - ***** Getting input data from excel *****
+2024-12-10 12:24:39 [main] INFO  org.testNG.login - ***** Send the correct input data according to the inputs *****
+2024-12-10 12:24:40 [main] INFO  org.testNG.login - ***** Click on the login button *****
+2024-12-10 12:24:41 [main] INFO  org.testNG.login - ***** Wait for the home page *****
+2024-12-10 12:24:41 [main] INFO  org.testNG.login - ***** Validate the URL at home page *****
+2024-12-10 12:24:45 [main] INFO  org.testNG.login - ***** Navigate to login for unsuccessful login *****
+2024-12-10 12:24:46 [main] INFO  org.testNG.login - ***** Send the incorrect input data according to the inputs *****
+2024-12-10 12:24:47 [main] INFO  org.testNG.login - ***** Wait for the error msg is displayed or not *****
+2024-12-10 12:24:47 [main] INFO  org.testNG.login - ***** Validate the error msg *****

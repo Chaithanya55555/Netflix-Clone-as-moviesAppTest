@@ -1,0 +1,39 @@
+2024-11-19 12:14:12 [TestNG-test-All pages-1] INFO  org.testNG.account - ***** Click on the login button *****
+2024-11-19 12:14:12 [TestNG-test-All pages-1] INFO  org.testNG.account - ***** Wait for the home page *****
+2024-11-19 12:14:22 [TestNG-test-All pages-1] INFO  org.testNG.moviesDetails - ***** Navigate to login for unsuccessful login *****
+2024-11-19 12:14:23 [TestNG-test-All pages-1] INFO  org.testNG.moviesDetails - ***** Send the incorrect input data according to the inputs *****
+2024-11-19 12:14:23 [TestNG-test-All pages-1] INFO  org.testNG.moviesDetails - ***** Wait for the error msg is displayed or not *****
+2024-11-19 12:14:23 [TestNG-test-All pages-1] INFO  org.testNG.moviesDetails - ***** Validate the error msg *****
+2024-11-19 12:14:31 [TestNG-test-All pages-2] INFO  org.testNG.search - ***** Verify the home page elements start *****
+2024-11-19 12:14:31 [TestNG-test-All pages-2] INFO  org.testNG.search - ***** Successfully logged for validate the UI on home page *****
+2024-11-19 12:14:32 [TestNG-test-All pages-2] INFO  org.testNG.search - ***** Validate the UI related elements *****
+2024-11-19 12:14:34 [TestNG-test-All pages-2] INFO  org.testNG.search - ***** Finished the verification *****
+2024-11-19 12:14:36 [TestNG-test-All pages-2] INFO  org.testNG.search - ***** Test header UI is started *****
+2024-11-19 12:14:40 [TestNG-test-All pages-2] INFO  org.testNG.home - ***** Validate the functionality of header section is start *****
+2024-11-19 12:14:40 [TestNG-test-All pages-2] INFO  org.testNG.home - ***** Successfully login *****
+2024-11-19 12:14:41 [TestNG-test-All pages-2] INFO  org.testNG.search - ***** Click on home element *****
+2024-11-19 12:14:42 [TestNG-test-All pages-2] INFO  org.testNG.search - ***** Validate URL of home page *****
+2024-11-19 12:14:42 [TestNG-test-All pages-2] INFO  org.testNG.search - ***** Click on popular element *****
+2024-11-19 12:14:42 [TestNG-test-All pages-2] INFO  org.testNG.search - ***** Validate URL of popular page *****
+2024-11-19 12:14:42 [TestNG-test-All pages-2] INFO  org.testNG.search - ***** Click on account element *****
+2024-11-19 12:14:42 [TestNG-test-All pages-2] INFO  org.testNG.search - ***** Validate URL of account page  *****
+2024-11-19 12:14:42 [TestNG-test-All pages-2] INFO  org.testNG.search - ***** Validate the functionality of header section is finished *****
+2024-11-19 12:16:26 [TestNG-test-All pages-1] INFO  org.testNG.account - ***** Validate the user interface *****
+2024-11-19 12:16:31 [TestNG-test-All pages-1] INFO  org.testNG.moviesDetails - ***** Navigate to login for successful login *****
+2024-11-19 12:16:31 [TestNG-test-All pages-1] INFO  org.testNG.moviesDetails - ***** Checking the input boxes are empty  *****
+2024-11-19 12:16:31 [TestNG-test-All pages-1] INFO  org.testNG.moviesDetails - ***** Getting input data from excel *****
+2024-11-19 12:16:33 [TestNG-test-All pages-1] INFO  org.testNG.moviesDetails - ***** Send the correct input data according to the inputs *****
+2024-11-19 12:16:46 [TestNG-test-All pages-1] INFO  org.testNG.search - ***** Navigate to login for unsuccessful login *****
+2024-11-19 12:16:47 [TestNG-test-All pages-1] INFO  org.testNG.search - ***** Send the incorrect input data according to the inputs *****
+2024-11-19 12:16:47 [TestNG-test-All pages-1] INFO  org.testNG.search - ***** Wait for the error msg is displayed or not *****
+2024-11-19 12:16:47 [TestNG-test-All pages-1] INFO  org.testNG.search - ***** Validate the error msg *****
+2024-11-19 12:16:52 [TestNG-test-All pages-1] INFO  org.testNG.popular - ***** Verify the home page elements start *****
+2024-11-19 12:16:52 [TestNG-test-All pages-1] INFO  org.testNG.popular - ***** Successfully logged for validate the UI on home page *****
+2024-11-19 12:16:54 [TestNG-test-All pages-1] INFO  org.testNG.popular - ***** Validate the UI related elements *****
+2024-11-19 12:16:58 [TestNG-test-All pages-1] ERROR org.testNG.popular - ***** Test Failed *****Error communicating with the remote browser. It may have died.
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c20972b1fe2f71a69ef4e8889bd5ad35, findElements [value, using]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.69, chrome: {chromedriverVersion: 131.0.6778.69 (77e2244bbcda..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:1148}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:1148/devtool..., se:cdpVersion: 131.0.6778.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c20972b1fe2f71a69ef4e8889bd5ad35
